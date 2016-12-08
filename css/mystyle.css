@@ -1,0 +1,332 @@
+@media (min-width: 768px) {
+  header .intro-text.min {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  #portfolio .portfolio-item {
+	margin: 0;
+  }
+  section {
+  	padding: 5px 0;
+  }
+}
+div.modal.fade.in {
+	margin: 30px 50px 0 50px;
+	border-radius: 4px;
+}
+.modal-dialog .modal-content {
+	padding: 35px 0;
+}
+.modal-body hr {
+	border-color: #fed136;
+	margin-bottom: 0;
+}
+.modal .close-modal.mini{
+	top: 22px;
+	right: 20px;
+	height: 35px;
+	width: 35px;
+	position: fixed;
+}
+.modal .close-modal.mini .lr .rl {
+	height: 35px;
+	background-color: #ddd;
+}
+.modal .close-modal.mini .lr {
+	height: 35px;
+	background-color: #ddd;
+}
+
+.btn-primary.no-bg {
+	background-color: #fff;
+	color: #000;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.text-muted {
+	text-align: justify;
+}
+.nav #login-menu {
+	color: #fed136;
+	padding-top: 13px;
+}
+.portfolio-link .portfolio-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+.portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+.portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+
+/*SIDE BAR*/
+div.side-bar {
+	padding: 0 15px;
+	margin-top: 15px;
+}
+.side-bar .title {
+	border-bottom: #fed136 2px solid;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #000;
+	padding: 4px 0;
+}
+.list-artikel {
+	/*margin: 0 15px;*/
+}
+.list-artikel .artikel {
+	margin-bottom: 15px;
+	border-bottom: #ddd 1px solid;
+}
+.list-artikel .artikel .author-name {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+.list-artikel .artikel h5 {
+	margin-bottom: 0;
+	color: #000;
+}
+.filter .search {
+	margin: 0 -15px 0 0;
+	padding: 0;
+}
+.search .search-field {
+	width: 94%;
+	border-radius: 15px;
+	padding: 0px 13px;
+	margin: 0;
+}
+.search .fa-search {
+	z-index: 2;
+	margin-left: -26px;
+}
+.side-bar.notifikasi {
+	min-height: 123px;
+}
+.side-bar.notifikasi .artikel {
+	margin: 0;
+	border-bottom-style: none;
+}
+.side-bar.notifikasi h5 {
+	display: inline-block;
+	font-weight: 400;
+	color: #777;
+}
+.side-bar.notifikasi .notif-num {
+	margin: 0 5px;
+	padding: 0 6px;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	font-size: small;
+	font-weight: 400;
+}
+
+/*HOME*/
+.container .visitor {
+	margin-top: 15px;
+}
+.row.activity {
+	border-bottom: #ddd 1px solid;
+	margin: 0 15px 0 0;
+	padding: 15px 0;
+}
+.share-btn {
+
+}
+.share-btn i,
+.activity i {
+	margin : 0 5px;
+}
+#portfolio .portfolio-item .portfolio-caption {
+	padding: 10px ;
+}
+.portfolio-modal .modal-content p {
+	text-align: justify;
+}
+.filter {
+	border-bottom: #fed136 2px solid;
+	margin-right: 15px;
+}
+.filter > h6,
+.filter > div {
+	display: inline-block;
+	margin: 0 15px;
+}
+.filter .filter-ops {
+	width: 100px;
+	text-align: center;
+	padding: 4px;
+}
+
+.filter .filter-ops.active {
+	background-color: #fed136;
+    border-radius: 40px 40px 0 0;
+}
+
+.filter .filter-ops.active > a {
+	color: white;
+}
+.filter .filter-ops.active > a:hover {
+	color: white;
+}
+.filter .filter-ops > a {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #000;
+	text-align: center;
+	width: 100px;
+}
+.filter .filter-ops > a:hover {
+	text-decoration: none;
+	color : #fec503;
+}
+.activity h6, .activity h4 {
+	margin-top: 0;
+}
+.activity a > i {
+	color: #000;
+}
+.new-activity {
+	margin: 22px 0;
+	min-height: 110px;
+}
+.new-activity > div {
+	padding-left: 0;
+}
+.new-activity > div > textarea {
+	width: 100%;
+	height: 70px;
+	border-radius: 15px;
+	padding: 7px;
+}
+.new-activity .post-option {
+	padding: 5px 2px;
+	width: 100px;
+	margin: 0 10px;
+	border: #eee 1px solid;
+	border-radius: 4px;
+	background-color: #eee;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.new-activity .post-option > i {
+	padding-left: 3px;
+}
+.activity-response {
+	text-align: left;
+	padding: 15px;
+}
+.activity-response i{
+	color: #000;
+	margin: 0 5px;
+}
+
+.comments {
+	text-align: left;
+}
+.comments .comment.new-comment {
+	min-height: 110px;
+	border-top-style: none;
+}
+.comments .new-comment > div {
+	padding: 0;
+}
+.comments .new-comment > div > img {
+	width: 90%;
+}
+.comments .new-comment > div > textarea {
+	width: 100%;
+	border-radius: 15px;
+	padding: 7px;
+}
+.comments .comment {
+	border-bottom: #ddd 1px solid;
+	border-top: #ddd 1px solid;
+	padding: 0;
+}
+.comments .comment p {
+	margin-bottom: 10px;
+}
+
+/*Author page*/
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    z-index: 1; /* Stay on top */
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: -15px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*helper*/
+.go-right {
+	float: right;;
+}
+.go-left {
+	float: left;
+}
+.center {
+	text-align: center;
+}

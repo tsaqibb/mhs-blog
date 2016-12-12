@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Mahasiswa UI</title>
+    <title>Group - Blog Mahasiswa UI</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +24,8 @@
     <!-- Theme CSS -->
     <link href="../../css/agency.css" rel="stylesheet">
     <link href="../../css/mystyle.css" rel="stylesheet">
+    <link href="../../css/group.css" rel="stylesheet">
+    
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,12 +53,16 @@
     <div class="container">
         <div class="col-md-8 col-sm-6 visitor">
             <div class="filter">
-                <div class="filter-ops active"><a href="#">Semua</a></div>
-                <div class="filter-ops active"><a href="#">Tergabung</a></div>
-                <div class="col-md-4 go-right search">
-                    <input class="search-field" type="text" name="key" placeholder="Cari artikel">
+                <div class="filter-ops active"><a href="Group.php">Semua</a></div>
+                <div class="filter-ops active"><a href="Group-tergabung.php">Tergabung</a></div>
+                <span class="go-right">
+                    <button class="btn btn-primary">Buat Group</button>
+                </span>
+                <div class="col-md-3 go-right search">
+                    <input class="search-field" type="text" name="key" placeholder="Cari Group...">
                     <i class="fa fa-search"></i>
                 </div>
+
             </div>
 
             <div class="row activity">
@@ -68,12 +74,14 @@
                             </div>
                         </div>
                         <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <a href="http://sso.ui.ac.id" class="btn btn-lg">Bergabung</a>
+
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
                     <span class="go-right"><h6>1 Dec 2016</h6></span>
-                    <h4>Judul Artikel Jika Ada</h4>
-                    <h6> Saqib, Sistem Informasi 2016</h6>
+                    <h4>Grup Pecinta Lingkungan UI</h4>
+                    <h6>200 Orang Bergabung</h6>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     <a href="#portfolioModal1" data-toggle="modal">read more...</a>
@@ -97,12 +105,14 @@
                             </div>
                         </div>
                         <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <a href="http://sso.ui.ac.id" class="btn btn-lg">Keluar Grup</a>
+
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
                     <span class="go-right"><h6>1 Dec 2016</h6></span>
-                    <h4>Judul Artikel Jika Ada</h4>
-                    <h6> Saqib, Sistem Informasi 2016</h6>
+                    <h4>Grup Sosial Politik UI</h4>
+                    <h6> 110 Orang Bergabung</h6>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     <a href="#portfolioModal1" data-toggle="modal">read more...</a>
@@ -126,12 +136,14 @@
                             </div>
                         </div>
                         <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <a href="http://sso.ui.ac.id" class="btn btn-lg">Bergabung</a>
+
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
                     <span class="go-right"><h6>1 Dec 2016</h6></span>
-                    <h4>Judul Artikel Jika Ada</h4>
-                    <h6> Saqib, Sistem Informasi 2016</h6>
+                    <h4>Grup Pengamat Lingkungan UI</h4>
+                    <h6>80 Orang Bergabung</h6>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     <a href="#portfolioModal1" data-toggle="modal">read more...</a>
@@ -155,12 +167,14 @@
                             </div>
                         </div>
                         <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <a href="http://sso.ui.ac.id" class="btn btn-lg">Keluar Grup</a>
+
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
                     <span class="go-right"><h6>1 Dec 2016</h6></span>
-                    <h4>Judul Artikel Jika Ada</h4>
-                    <h6> Saqib, Sistem Informasi 2016</h6>
+                    <h4> Grup Minat Bakat UI </h4>
+                    <h6> 240 Orang Bergabung</h6>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     <a href="#portfolioModal1" data-toggle="modal">read more...</a>
@@ -203,6 +217,33 @@
                             <h5>Judul Artikel 1</h5>
                         </a>
                         <p class="author-name">oleh: Nama Penulisnya</p>
+                    </div>
+                </div>
+                <div class="title">Trending Group</div>
+                <div class="list-artikel">
+                    <div class="artikel">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <h5>Grup Pecinta Lingkungan UI</h5>
+                        </a>
+                        <p class="author-name">100 Aktivitas</p>
+                    </div>
+                    <div class="artikel">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <h5>Grup Minat Bakat UI </h5>
+                        </a>
+                        <p class="author-name">90 Aktivitas</p>
+                    </div>
+                    <div class="artikel">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <h5>Grup Sosial Politik UI</h5>
+                        </a>
+                        <p class="author-name">80 aktivitas</p>
+                    </div>
+                    <div class="artikel">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <h5>Grup Sinematografi UI</h5>
+                        </a>
+                        <p class="author-name">60 Aktivitas</p>
                     </div>
                     
                 </div>

@@ -9,21 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Blog Mahasiswa UI</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="font/montserrat.css" rel="stylesheet" type="text/css">
-    <link href='font/kaushan-script.css' rel='stylesheet' type='text/css'>
-    <link href='font/droid-serif.css' rel='stylesheet' type='text/css'>
-    <link href='font/roboto-slab.css' rel='stylesheet' type='text/css'>
+    <link href="../../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../font/montserrat.css" rel="stylesheet" type="text/css">
+    <link href='../../font/kaushan-script.css' rel='stylesheet' type='text/css'>
+    <link href='../../font/droid-serif.css' rel='stylesheet' type='text/css'>
+    <link href='../../font/roboto-slab.css' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="../../css/agency.css" rel="stylesheet">
+    <link href="../../css/mystyle.css" rel="stylesheet">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,50 +36,9 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Blog Mahasiswa</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#anggota">Anggota</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#group">Group</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#tentang-kami">Tentang Kami</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#bantuan">Bantuan</a>
-                    </li>
-                    <li>
-                        <a id="login-menu" class="page-scroll" href="#login">
-                            <i class="fa fa-user fa-2x"></i>
-                            <i class="fa fa-angle-down fa-2x"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+   <?php 
+        include '../Navigation/after_login.html';
+    ?>
 
     <!-- Header -->
     <header>
@@ -95,7 +54,7 @@
         <div class="col-md-8 col-sm-6">
             <div class="new-activity">
                 <div class="col-md-2">
-                    <img src="img/foto-profile.png" class="img-responsive">
+                    <img src="../img/foto-profile.png" class="img-responsive">
                 </div>
                 <div class="col-md-10">
                     <textarea placeholder="Apa yang sedang kamu pikirkan? (max 255 karakter)"></textarea>
@@ -122,7 +81,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
@@ -154,7 +113,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
@@ -186,7 +145,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
@@ -218,7 +177,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="../../img/portfolio/roundicons.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-md-8 col-sm-6 portfolio-item">
